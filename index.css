@@ -43,7 +43,8 @@
     border-radius: 15px; /* Rounded corners for cards */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
-}
+    align-items: center;
+    align-content: center;
 
 .card:hover {
     transform: translateY(-8px); /* Move card slightly upwards on hover */
@@ -59,6 +60,7 @@
 .card-text {
     margin-bottom: 1rem; /* Add more bottom margin to card text */
     color: #6c757d; /* Gray text color */
+    width: 150px;
 }
 
 /* Footer */
